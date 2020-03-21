@@ -6,13 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'mycv';
-  personal: string = "George|1234 Main St Florence KY 23456|513-333-4444";
-  h3Color: string= "blue";
-  mainColor: string= "green";
-  tech: string= "Git/GitHub SQL C# EF MVC WebApi Html Css JavaScript jQuery Typescript Anglar";
-  workHist1:string="";
-  workHist2:string="";
-  education1:string="";
-  education2:string="";
+  description: string = 'Three components';
+  name:string ="George Meyer";
+  address: string ="1234 Main Street";
+  city: string ="Florence";
+  state:string="KY";
+  zip: string = "45214";
+  email: string ="gjmiii9@gmail.com";
+  phone: string = "513.867.5309";
 }
